@@ -11,7 +11,7 @@ const App=() => {
         <div className="App">
             <Helmet>
                 <meta charSet="utf-8" />
-                <title>haalo</title>
+                <title>GPT3</title>
                 <link rel="canonical" href="http://mysite.com/example" />
                 <meta name="description" content="Chat GPT Blog" />
             </Helmet>
