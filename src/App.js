@@ -1,12 +1,20 @@
 import React from 'react'
+import { Helmet } from "react-helmet";
 
 import { Footer, Blog, Possibility, Features, WhatGPT3, Header } from './containers';
 import { Cta, Brand, Navbar } from './components';
 import './App.css'
 
+
 const App=() => {
     return (
         <div className="App">
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>haalo</title>
+                <link rel="canonical" href="http://mysite.com/example" />
+                <meta name="description" content="Chat GPT Blog" />
+            </Helmet>
             <div className="gradient__bg">
                 <Navbar />
                 <Header />
