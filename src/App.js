@@ -12,7 +12,7 @@ const App=() => {
             <Helmet>
                 <meta charSet="utf-8" />
                 <title>GPT3</title>
-                <link rel="canonical" href="http://mysite.com/example" />
+                <link rel="canonical" href="https://gpt3blog.netlify.app/" />
                 <meta name="description" content="Chat GPT Blog" />
             </Helmet>
             <div className="gradient__bg">
